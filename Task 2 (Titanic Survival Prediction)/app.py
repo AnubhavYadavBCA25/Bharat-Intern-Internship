@@ -59,5 +59,22 @@ def main():
         else:
             st.success("The passenger would have survived the Titanic disaster.")
 
+        st.divider()
+
+    # Footer
+    st.markdown("---")
+    st.markdown(
+    """
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <div style="text-align:center;">
+        <p>Made with ❤️ by Anubhav Yadav</p>
+        <p>Follow me on 
+            <a href="https://linkedin.com/in/anubhav-yadav-data-science" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a> | 
+            <a href="https://github.com/AnubhavYadavBCA25" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        </p>
+    </div>
+    """, unsafe_allow_html=True
+)
+
 if __name__ == "__main__":
     main()
